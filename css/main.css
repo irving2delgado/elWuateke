@@ -817,7 +817,7 @@ input[type="date" i] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
 }
 .item-slick1 {
   height: 100vh;
@@ -882,6 +882,15 @@ input[type="date" i] {
   .next-slick1 {
     right: 15px;
   }
+
+  .item-slick1,
+.item-slick2,
+.item-slick3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
   .prev-slick1 {
     left: 15px;
@@ -1015,7 +1024,8 @@ input[type="date" i] {
   background-attachment: fixed;
   background-position: center 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  
 }
 
 
@@ -1185,7 +1195,7 @@ input[type="date" i] {
   width: 50%;  
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .wrap-text-blo2 {
@@ -1223,7 +1233,8 @@ input[type="date" i] {
 
   .wrap-pic-blo2 {
     width: 100%;
-    height: 390px;
+    height: 490px;
+
   }
 
   .wrap-text-blo2 {
@@ -1258,6 +1269,10 @@ input[type="date" i] {
   .wrap-pic-blo2 {
     width: 100%;
     height: 364px;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
   }
 
 }

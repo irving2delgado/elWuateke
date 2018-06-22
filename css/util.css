@@ -2978,6 +2978,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #222222;
 	text-transform: uppercase;
 	letter-spacing: 6px;
+	word-wrap: break-word;
 }
 
 .tit4 {
@@ -3694,14 +3695,16 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 /*[ Background pattern ]
 -----------------------------------------------------------
 */
-.bg1-pattern {
+/* .bg1-pattern {
 	background-image: url(../images/icons/pattern1.png);
   	background-repeat: repeat;
-}
+} */
 
 .bg2-pattern {
-	background-image: url(../images/icons/pattern2.png);
-  	background-repeat: repeat;
+	background-image: linear-gradient(rgba(255, 255, 0, 0.5), #0e1111),
+	url(../images/texture.jpeg);
+	position: relative;
+
 }
 
 .bg3-pattern {
