@@ -192,6 +192,21 @@
         });
     });
 
+
     
 
 })(jQuery);
+
+
+var welcome = document.getElementsByClassName ("section-welcome");
+var w = window.innerWidth;
+
+
+window.addEventListener("resize", function() {
+    if (window.matchMedia("(min-width: 576px)").matches) {
+        console.log("Screen width is at least 576px");
+        welcome.removeClass("p-b-105");
+    } else {
+        console.log("Screen less than 576px");
+    }
+});
