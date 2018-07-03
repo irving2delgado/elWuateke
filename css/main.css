@@ -824,10 +824,10 @@ input[type="date" i] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
 }
 .item-slick1 {
   height: 100vh;
+  width: 100%;
 }
 
 .arrow-slick1, .arrow-slick2, .arrow-slick3 {
@@ -888,6 +888,15 @@ input[type="date" i] {
 @media (max-width: 576px) {
   .next-slick1 {
     right: 15px;
+  }
+
+  .item-slick1 {
+    height: 100%;
+    width: 100%;
+    top: 0; 
+  left: 0; 
+  background-position: 100% top;
+  background-attachment: fixed;
   }
 
   .item-slick1,
