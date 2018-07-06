@@ -10,11 +10,7 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['msg'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $msg = nl2br($_POST['msg']);
-    if (MAIL_HOST != null) {
-        $to = MAIL_HOST;
-    } else {
-        $to = "lebach.tk@gmail.com";
-    }
+    $to = "irving2delgado@gmail.com";
     $from = $email;
     if (MAIL_TITLE != null) {
         $subject = MAIL_TITLE;
